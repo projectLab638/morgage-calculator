@@ -1,0 +1,60 @@
+.App {
+  text-align: center;
+
+  background: linear-gradient(
+    354deg,
+    rgba(242, 242, 242, 1) 6%,
+    rgba(45, 194, 209, 1) 100%
+  );
+}
+.sidebar {
+  width: 250px; /* Sidebar width */
+  height: 100vh; /* Full viewport height */
+  padding: 20px; /* Padding around sidebar content */
+  direction: rtl; /* Right-to-left direction for Hebrew */
+}
+
+.custom-nav-link,
+.navbar-brand {
+  color: #333; /* Text color for sidebar items */
+  text-align: right; /* Align text to the right */
+  padding: 8px 12px; /* Padding for each item */
+  display: block; /* Ensure the links take up the full width */
+  text-decoration: none; /* Remove underline from links */
+}
+
+.custom-nav-link:hover,
+.navbar-brand:hover {
+  color: #000; /* Darker color on hover */
+}
+.nav-link {
+  color: #000 !important;
+}
+.navbar-brand {
+  font-weight: bold; /* Bold font for section titles */
+  border-bottom: 1px solid #ddd; /* Bottom border for separation */
+  margin-bottom: 10px; /* Space after the title before next items */
+}
+
+/* Styling for nav dropdown */
+.nav-dropdown-title {
+  font-weight: bold;
+  cursor: pointer;
+}
+
+/* Style adjustments for dropdown items */
+.nav-dropdown-item {
+  padding-right: 20px; /* Right padding for RTL dropdown items */
+  font-size: 0.9rem; /* Smaller font size for dropdown items */
+}
+
+@media screen and (max-width: 700px) {
+  body {
+  }
+  .App {
+    height: 100vh;
+  }
+}
+a {
+  color: #007bff;
+}

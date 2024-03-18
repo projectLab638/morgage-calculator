@@ -1,0 +1,45 @@
+body {
+  overflow: hidden;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+.accordion-button:not(.collapsed) {
+  background: transparent !important;
+
+  color: white;
+}
+.accordion {
+  background: transparent !important;
+}
+.accordion-item {
+  background: transparent !important;
+}
+.accordion-item:last-of-type > .accordion-header .accordion-button.collapsed {
+  border-bottom-right-radius: 0 !important;
+  border-bottom-left-radius: 0 !important;
+  background: transparent !important;
+}
+.accordion-item:last-of-type > .accordion-collapse {
+  border-bottom-right-radius: 0 !important;
+  border-bottom-left-radius: 0 !important;
+  background: transparent !important;
+}
+.accordion-item {
+  border: none !important;
+  border-radius: 0 !important;
+}
+.accordion-item:last-of-type {
+  border-bottom-right-radius: 0 !important;
+  border-bottom-left-radius: 0 !important;
+}
+.accordion-item:first-of-type {
+  border-top-left-radius: 0 !important;
+  border-top-right-radius: 0 !important;
+}
+.accordion-item:last-of-type > .accordion-header .accordion-button.collapsed {
+  border-bottom-right-radius: none !important;
+  border-bottom-left-radius: none !important;
+}

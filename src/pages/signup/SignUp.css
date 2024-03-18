@@ -1,0 +1,39 @@
+/* SignUp.css */
+.signup-form {
+  background-color: #ebf5ff; /* Match the color from your image */
+  padding: 2rem;
+  border-radius: 0.25rem;
+  margin-top: 2rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.signup-form h2 {
+  color: #003366; /* Assuming a dark blue color for headers */
+}
+
+.signup-form .btn-primary {
+  background-color: #0056b3; /* Match button color from your image */
+  border: none;
+}
+
+.signup-form .form-control {
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid #ccc; 
+  border-radius: 0; 
+}
+
+.signup-form .form-control::placeholder {
+  font-size: 1rem; 
+}
+
+.signup-form a {
+  color: #007bff; 
+}
+
+
+@media (max-width: 768px) {
+  .signup-form {
+    padding: 1rem;
+  }
+}
